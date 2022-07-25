@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: black;
+}
+.baba{
+    border: aqua solid 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 1rem;
+}
+.baba img{
+    width: 80px;
+}
+.baba h1{
+    color: aqua;
+    letter-spacing: 3px;
+    margin: 8px 0;
+    font-weight: 800;
+}
+.baba input{
+    background-color: black;
+    border: aqua 2px solid;
+    padding: 8px 28px;
+    margin: 10px 0;
+    border-radius: 6px;
+    outline: none;
+    color: aqua;
+    font-size: 16px;
+}
+.baba #btn{
+    padding: 6px 90px;
+    background-color: aqua;
+    border: aqua 2px solid;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    margin: 12px 0;
+}
+span{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 10px 1px;
+    text-align: center;
+}
+.baba a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.baba .hob{
+    padding: 6px 60px;
+    background-color: white;
+    border: white 2px solid;
+    font-size: 16px;
+    border-radius: 0.6rem;
+    margin-top: 10px;
+}
